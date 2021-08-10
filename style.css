@@ -1,0 +1,172 @@
+body{
+    margin-left: 0;
+      text-align: justify;
+}
+.navbar {
+  
+ display: flex;
+  flex-direction:row;
+  align-content: center;
+  justify-content: space-around;
+  overflow: hidden;
+  background-color:black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+ 
+ 
+}
+
+.navbar a {
+  float: right;
+
+  color:#c4c4c4;
+
+  
+  
+ 
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+
+}
+.navbar img{
+    width: 160px;
+    height: 120px;
+    padding-top: 15px;
+
+}
+.iamge img{
+  width: 200px;
+}
+
+.navbar a:hover {
+  
+  color:white;
+}
+.nav1{
+    width: 100%;
+    padding-top:12px;
+    margin-top: 70px;;
+    
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+   
+     
+}
+
+.carousel-item img {
+    height: 600px;
+    
+  }
+  .sa{
+    color: green;
+    font-size: 2.5em;
+  }
+  .s{
+    color: green;
+    font-size: 2em;
+  }
+
+  /* service */
+.services img {
+  width: 200px;
+}
+.rating-sec {
+  color: #ffc014;
+}
+.service:hover img {
+  transition: transform 0.3s ease-in;
+  transform: scale(1.05);
+}
+.service:hover {
+  cursor: pointer;
+}
+.service:hover i:nth-child(1) {
+  transition: transform 0.2s ease-in forwards;
+  transform: scale(1.5);
+}
+.service:hover i:nth-child(2) {
+  transition: transform 0.4s ease-in forwards;
+  transform: scale(1.5);
+}
+.service:hover i:nth-child(3) {
+  transition: transform 0.6s ease-in forwards;
+  transform: scale(1.5);
+}
+.service:hover i:nth-child(4) {
+  transition: transform 0.8s ease-in;
+  transform: scale(1.5);
+}
+.service:hover i:nth-child(5) {
+  transition: transform 1s ease-in;
+  transform: scale(1.5);
+}
+.ellipsis-text {
+  height: 100px;
+  overflow: hidden;
+}
+.review-title {
+  font-weight: 600;
+}
+.review {
+  font-weight: 500;
+}
+.review-person {
+  font-weight: 500;
+  font-style: italic;
+}
+
+  /* endlll */
+
+  /* contact section  */
+.contact {
+  background-color: #ced4da;
+}
+.contact-info h6 {
+  color: white;
+}
+.contact-info i {
+  color: #998950;
+}
+@media screen and (max-width: 600px) {
+  .navbar {
+    background-color:black;
+    height:40px;
+    
+    
+  }
+  .navbar a{
+
+    font-size: 13px;
+  }
+  .navbar img{
+    width: 120px;
+    height: 90px;
+
+  }
+  .nav1{
+
+    width: 100%;
+   
+    margin-top: 40px;
+    
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    padding:-5px;
+  }
+
+
+}
+.teamm img{
+
+  width: 200px;
+}
+  
